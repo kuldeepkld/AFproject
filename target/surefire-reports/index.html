@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.AddTaskPageTest" hash-for-method="submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)">submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +114,16 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.PeopleAndOrganisationsTest" hash-for-method="addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)">addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.PeopleAndOrganisationsTest" hash-for-method="addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)">addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.PeopleAndOrganisationsTest" hash-for-method="addNewPersonTest(kaka, singh, budaau, purani madai, khalihar, 9.898989804E9, abc4@test, www.abc4.com, puliya No 423)">addNewPersonTest(kaka, singh, budaau, purani madai, khalihar, 9.898989804E9, abc4@test, www.abc4.com, puliya No 423)</a> <!-- method navigator-link -->
@@ -112,27 +136,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.PeopleAndOrganisationsTest" hash-for-method="addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)">addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.PeopleAndOrganisationsTest" hash-for-method="addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)">addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.AddTaskPageTest" hash-for-method="submitAddTask(rama, 24-Oct-2019, 6.0, 10.0, Email)">submitAddTask(rama, 24-Oct-2019, 6.0, 10.0, Email)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.AddTaskPageTest" hash-for-method="submitAddTask(rahul, 23-Dec-2019, 11.0, 5.0, Call)">submitAddTask(rahul, 23-Dec-2019, 11.0, 5.0, Call)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.AddTaskPageTest" hash-for-method="submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)">submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -182,12 +191,74 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.crm.qa.testcasespack.AddTaskPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)">
+                  </a> <!-- submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone) -->
+                  <span class="method-name">submitAddTask</span>
+                  <span class="parameters">(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[contains(text(),&apos;Add Task&apos;)]&quot;}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;KULDY&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Windows\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51169}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 097cd494149479c704775a9d1d2ba1c9
+*** Element info: {Using=xpath, value=//button[contains(text(),&apos;Add Task&apos;)]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.crm.qa.pagespack.HomePage.addTask(HomePage.java:63)
+	at com.crm.qa.testcasespack.AddTaskPageTest.submitAddTask(AddTaskPageTest.java:39)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.crm.qa.testcasespack.PeopleAndOrganisationsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)">
+                  </a> <!-- addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420) -->
+                  <span class="method-name">addNewPersonTest</span>
+                  <span class="parameters">(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)">
+                  </a> <!-- addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422) -->
+                  <span class="method-name">addNewPersonTest</span>
+                  <span class="parameters">(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="addNewPersonTest(kaka, singh, budaau, purani madai, khalihar, 9.898989804E9, abc4@test, www.abc4.com, puliya No 423)">
@@ -202,22 +273,6 @@
                   </a> <!-- addNewPersonTest(mukesh, malhotra, carpenter, aara machin, karigar, 9.898989802E9, abc2@test, www.abc2.com, puliya No...) -->
                   <span class="method-name">addNewPersonTest</span>
                   <span class="parameters">(mukesh, malhotra, carpenter, aara machin, karigar, 9.898989802E9, abc2@test, www.abc2.com, puliya No 421)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)">
-                  </a> <!-- addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422) -->
-                  <span class="method-name">addNewPersonTest</span>
-                  <span class="parameters">(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)">
-                  </a> <!-- addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420) -->
-                  <span class="method-name">addNewPersonTest</span>
-                  <span class="parameters">(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -301,14 +356,6 @@
                   <span class="parameters">(rahul, 23-Dec-2019, 11.0, 5.0, Call)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)">
-                  </a> <!-- submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone) -->
-                  <span class="method-name">submitAddTask</span>
-                  <span class="parameters">(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -368,66 +415,66 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addNewPersonTest')
-data.setCell(0, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
-data.setCell(0, 3, 33666);
+data.setCell(0, 1, 'submitAddTask')
+data.setCell(0, 2, 'com.crm.qa.testcasespack.AddTaskPageTest')
+data.setCell(0, 3, 20104);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'addNewPersonTest')
 data.setCell(1, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
-data.setCell(1, 3, 23244);
+data.setCell(1, 3, 17229);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'addNewPersonTest')
 data.setCell(2, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
-data.setCell(2, 3, 15999);
+data.setCell(2, 3, 17102);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'addNewPersonTest')
 data.setCell(3, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
-data.setCell(3, 3, 15912);
+data.setCell(3, 3, 16367);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'submitAddTask')
-data.setCell(4, 2, 'com.crm.qa.testcasespack.AddTaskPageTest')
-data.setCell(4, 3, 11122);
+data.setCell(4, 1, 'addNewPersonTest')
+data.setCell(4, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
+data.setCell(4, 3, 16211);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'submitAddTask')
 data.setCell(5, 2, 'com.crm.qa.testcasespack.AddTaskPageTest')
-data.setCell(5, 3, 11016);
+data.setCell(5, 3, 7168);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'submitAddTask')
 data.setCell(6, 2, 'com.crm.qa.testcasespack.AddTaskPageTest')
-data.setCell(6, 3, 9655);
+data.setCell(6, 3, 7091);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'validateAddPerson')
 data.setCell(7, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
-data.setCell(7, 3, 4496);
+data.setCell(7, 3, 4477);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'validateCalendarAndTasks')
 data.setCell(8, 2, 'com.crm.qa.testcasespack.HomePageTest')
-data.setCell(8, 3, 3010);
+data.setCell(8, 3, 2700);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'validateCases')
+data.setCell(9, 1, 'validatePeopleAndOrganisations')
 data.setCell(9, 2, 'com.crm.qa.testcasespack.HomePageTest')
-data.setCell(9, 3, 2648);
+data.setCell(9, 3, 2612);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'validateSalesPipeline')
 data.setCell(10, 2, 'com.crm.qa.testcasespack.HomePageTest')
-data.setCell(10, 3, 2599);
+data.setCell(10, 3, 2445);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'validatePeopleAndOrganisations')
+data.setCell(11, 1, 'validateCases')
 data.setCell(11, 2, 'com.crm.qa.testcasespack.HomePageTest')
-data.setCell(11, 3, 2551);
+data.setCell(11, 3, 2406);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'validateAddText')
 data.setCell(12, 2, 'com.crm.qa.testcasespack.HomePageTest')
-data.setCell(12, 3, 749);
+data.setCell(12, 3, 382);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'validatedashBoardButton')
 data.setCell(13, 2, 'com.crm.qa.testcasespack.HomePageTest')
-data.setCell(13, 3, 438);
+data.setCell(13, 3, 283);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -460,173 +507,175 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateAddText</span>
-                <span class="method-start">44260 ms</span>
+                <span class="method-start">36723 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">45011 ms</span>
+                <span class="method-start">37108 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">47437 ms</span>
+                <span class="method-start">38070 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateCalendarAndTasks</span>
-                <span class="method-start">60148 ms</span>
+                <span class="method-start">50090 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">63159 ms</span>
+                <span class="method-start">52791 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">64500 ms</span>
+                <span class="method-start">53812 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateCases</span>
-                <span class="method-start">78764 ms</span>
+                <span class="method-start">67277 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">81413 ms</span>
+                <span class="method-start">69685 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">82985 ms</span>
+                <span class="method-start">70723 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validatePeopleAndOrganisations</span>
-                <span class="method-start">94793 ms</span>
+                <span class="method-start">81251 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">97345 ms</span>
+                <span class="method-start">83863 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">98901 ms</span>
+                <span class="method-start">84715 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateSalesPipeline</span>
-                <span class="method-start">112202 ms</span>
+                <span class="method-start">95051 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">114802 ms</span>
+                <span class="method-start">97501 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">116513 ms</span>
+                <span class="method-start">98318 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validatedashBoardButton</span>
-                <span class="method-start">131184 ms</span>
+                <span class="method-start">108184 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">131622 ms</span>
+                <span class="method-start">108468 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcasespack.AddTaskPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">136087 ms</span>
+                <span class="method-start">111424 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">submitAddTask(rahul, 23-Dec-2019, 11.0, 5.0, Call)</span>
-                <span class="method-start">148598 ms</span>
+                <span class="method-start">121290 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">159614 ms</span>
+                <span class="method-start">128462 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">160552 ms</span>
+                <span class="method-start">129847 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">submitAddTask(rama, 24-Oct-2019, 6.0, 10.0, Email)</span>
-                <span class="method-start">173439 ms</span>
+                <span class="method-start">140518 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">183099 ms</span>
+                <span class="method-start">147621 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">184935 ms</span>
+                <span class="method-start">148385 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)</span>
-                <span class="method-start">197613 ms</span>
+                <span class="method-start">156978 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">208735 ms</span>
+                <span class="method-start">177652 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.crm.qa.testcasespack.PeopleAndOrganisationsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">210149 ms</span>
+                <span class="method-start">178658 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)</span>
-                <span class="method-start">226450 ms</span>
+                <span class="method-start">188603 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">249696 ms</span>
+                <span class="method-start">205833 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">251580 ms</span>
+                <span class="method-start">206592 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addNewPersonTest(mukesh, malhotra, carpenter, aara machin, karigar, 9.898989802E9, abc2@test, www.abc2.com, puliya No...)</span>
-                <span class="method-start">269502 ms</span>
+                <span class="method-start">217003 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">303168 ms</span>
+                <span class="method-start">233214 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">305361 ms</span>
+                <span class="method-start">233988 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)</span>
-                <span class="method-start">318059 ms</span>
+                <span class="method-start">243382 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">334061 ms</span>
+                <span class="method-start">259749 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">334891 ms</span>
+                <span class="method-start">260480 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addNewPersonTest(kaka, singh, budaau, purani madai, khalihar, 9.898989804E9, abc4@test, www.abc4.com, puliya No 423)</span>
-                <span class="method-start">345991 ms</span>
+                <span class="method-start">270719 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">361903 ms</span>
+                <span class="method-start">287821 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">362975 ms</span>
+                <span class="method-start">288683 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateAddPerson</span>
-                <span class="method-start">373963 ms</span>
+                <span class="method-start">299422 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">378459 ms</span>
+                <span class="method-start">303900 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
