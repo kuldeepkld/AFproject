@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="379374" started-at="2019-03-14T10:08:19Z" finished-at="2019-03-14T10:14:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="379374" started-at="2019-03-14T10:08:19Z" finished-at="2019-03-14T10:14:38Z">
+      <class name="com.crm.qa.testcasespack.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="setUp" is-config="true" duration-ms="44260" started-at="2019-03-14T10:08:19Z" finished-at="2019-03-14T10:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateAddText()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="validateAddText" duration-ms="749" started-at="2019-03-14T10:09:03Z" finished-at="2019-03-14T10:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="tearDown" is-config="true" duration-ms="2425" started-at="2019-03-14T10:09:04Z" finished-at="2019-03-14T10:09:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="setUp" is-config="true" duration-ms="12711" started-at="2019-03-14T10:09:06Z" finished-at="2019-03-14T10:09:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCalendarAndTasks()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="validateCalendarAndTasks" duration-ms="3010" started-at="2019-03-14T10:09:19Z" finished-at="2019-03-14T10:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCalendarAndTasks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="tearDown" is-config="true" duration-ms="1340" started-at="2019-03-14T10:09:22Z" finished-at="2019-03-14T10:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="setUp" is-config="true" duration-ms="14264" started-at="2019-03-14T10:09:23Z" finished-at="2019-03-14T10:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCases()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="validateCases" duration-ms="2648" started-at="2019-03-14T10:09:38Z" finished-at="2019-03-14T10:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="tearDown" is-config="true" duration-ms="1572" started-at="2019-03-14T10:09:40Z" finished-at="2019-03-14T10:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="setUp" is-config="true" duration-ms="11807" started-at="2019-03-14T10:09:42Z" finished-at="2019-03-14T10:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatePeopleAndOrganisations()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="validatePeopleAndOrganisations" duration-ms="2551" started-at="2019-03-14T10:09:54Z" finished-at="2019-03-14T10:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePeopleAndOrganisations -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="tearDown" is-config="true" duration-ms="1555" started-at="2019-03-14T10:09:56Z" finished-at="2019-03-14T10:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="setUp" is-config="true" duration-ms="13301" started-at="2019-03-14T10:09:58Z" finished-at="2019-03-14T10:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateSalesPipeline()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="validateSalesPipeline" duration-ms="2599" started-at="2019-03-14T10:10:11Z" finished-at="2019-03-14T10:10:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSalesPipeline -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="tearDown" is-config="true" duration-ms="1711" started-at="2019-03-14T10:10:14Z" finished-at="2019-03-14T10:10:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="setUp" is-config="true" duration-ms="14671" started-at="2019-03-14T10:10:15Z" finished-at="2019-03-14T10:10:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validatedashBoardButton()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="validatedashBoardButton" duration-ms="438" started-at="2019-03-14T10:10:30Z" finished-at="2019-03-14T10:10:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedashBoardButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.HomePageTest@6615435c]" name="tearDown" is-config="true" duration-ms="1537" started-at="2019-03-14T10:10:30Z" finished-at="2019-03-14T10:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcasespack.HomePageTest -->
+      <class name="com.crm.qa.testcasespack.AddTaskPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.AddTaskPageTest@4909b8da]" name="setUp" is-config="true" duration-ms="12510" started-at="2019-03-14T10:10:35Z" finished-at="2019-03-14T10:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="submitAddTask(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcasespack.AddTaskPageTest@4909b8da]" name="submitAddTask" duration-ms="11016" started-at="2019-03-14T10:10:47Z" data-provider="getCRMTestData" finished-at="2019-03-14T10:10:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23-Dec-2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Call]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitAddTask -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.AddTaskPageTest@4909b8da]" name="tearDown" is-config="true" duration-ms="938" started-at="2019-03-14T10:10:58Z" finished-at="2019-03-14T10:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.AddTaskPageTest@4909b8da]" name="setUp" is-config="true" duration-ms="12887" started-at="2019-03-14T10:10:59Z" finished-at="2019-03-14T10:11:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="submitAddTask(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcasespack.AddTaskPageTest@4909b8da]" name="submitAddTask" duration-ms="9655" started-at="2019-03-14T10:11:12Z" data-provider="getCRMTestData" finished-at="2019-03-14T10:11:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24-Oct-2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitAddTask -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.AddTaskPageTest@4909b8da]" name="tearDown" is-config="true" duration-ms="1835" started-at="2019-03-14T10:11:22Z" finished-at="2019-03-14T10:11:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.AddTaskPageTest@4909b8da]" name="setUp" is-config="true" duration-ms="12678" started-at="2019-03-14T10:11:24Z" finished-at="2019-03-14T10:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="submitAddTask(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcasespack.AddTaskPageTest@4909b8da]" name="submitAddTask" duration-ms="11122" started-at="2019-03-14T10:11:36Z" data-provider="getCRMTestData" finished-at="2019-03-14T10:11:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hanu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[18-Nov-2019]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Milestone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitAddTask -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.AddTaskPageTest@4909b8da]" name="tearDown" is-config="true" duration-ms="992" started-at="2019-03-14T10:11:48Z" finished-at="2019-03-14T10:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcasespack.AddTaskPageTest -->
+      <class name="com.crm.qa.testcasespack.PeopleAndOrganisationsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="setUp" is-config="true" duration-ms="16301" started-at="2019-03-14T10:11:49Z" finished-at="2019-03-14T10:12:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewPersonTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="addNewPersonTest" duration-ms="23244" started-at="2019-03-14T10:12:05Z" data-provider="getAddPersonDetail" finished-at="2019-03-14T10:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yadav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[master]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[school]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[guruji]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.898989801E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc1@test]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[www.abc1.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[puliya No 420]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPersonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="tearDown" is-config="true" duration-ms="1884" started-at="2019-03-14T10:12:29Z" finished-at="2019-03-14T10:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="setUp" is-config="true" duration-ms="17922" started-at="2019-03-14T10:12:30Z" finished-at="2019-03-14T10:12:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewPersonTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="addNewPersonTest" duration-ms="33666" started-at="2019-03-14T10:12:48Z" data-provider="getAddPersonDetail" finished-at="2019-03-14T10:13:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mukesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[malhotra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[carpenter]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aara machin]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[karigar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.898989802E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc2@test]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[www.abc2.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[puliya No 421]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPersonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="tearDown" is-config="true" duration-ms="2193" started-at="2019-03-14T10:13:22Z" finished-at="2019-03-14T10:13:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="setUp" is-config="true" duration-ms="12698" started-at="2019-03-14T10:13:24Z" finished-at="2019-03-14T10:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewPersonTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="addNewPersonTest" duration-ms="15999" started-at="2019-03-14T10:13:37Z" data-provider="getAddPersonDetail" finished-at="2019-03-14T10:13:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[piku]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nautanki]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[madari]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[circus]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jadugar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.898989803E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc3@test]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[www.abc3.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[puliya No 422]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPersonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="tearDown" is-config="true" duration-ms="830" started-at="2019-03-14T10:13:53Z" finished-at="2019-03-14T10:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="setUp" is-config="true" duration-ms="11100" started-at="2019-03-14T10:13:54Z" finished-at="2019-03-14T10:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewPersonTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="addNewPersonTest" duration-ms="15912" started-at="2019-03-14T10:14:05Z" data-provider="getAddPersonDetail" finished-at="2019-03-14T10:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kaka]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[budaau]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[purani madai]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[khalihar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.898989804E9]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc4@test]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[www.abc4.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[puliya No 423]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPersonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="tearDown" is-config="true" duration-ms="1072" started-at="2019-03-14T10:14:21Z" finished-at="2019-03-14T10:14:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="setUp" is-config="true" duration-ms="10988" started-at="2019-03-14T10:14:22Z" finished-at="2019-03-14T10:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateAddPerson()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="validateAddPerson" duration-ms="4496" started-at="2019-03-14T10:14:33Z" finished-at="2019-03-14T10:14:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddPerson -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcasespack.PeopleAndOrganisationsTest@3a03464]" name="tearDown" is-config="true" duration-ms="812" started-at="2019-03-14T10:14:37Z" finished-at="2019-03-14T10:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcasespack.PeopleAndOrganisationsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\kullu\Desktop\cmdrepo-master\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.PeopleAndOrganisationsTest" hash-for-method="addNewPersonTest(kaka, singh, budaau, purani madai, khalihar, 9.898989804E9, abc4@test, www.abc4.com, puliya No 423)">addNewPersonTest(kaka, singh, budaau, purani madai, khalihar, 9.898989804E9, abc4@test, www.abc4.com, puliya No 423)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.PeopleAndOrganisationsTest" hash-for-method="addNewPersonTest(mukesh, malhotra, carpenter, aara machin, karigar, 9.898989802E9, abc2@test, www.abc2.com, puliya No...)">addNewPersonTest(mukesh, malhotra, carpenter, aara machin, karigar, 9.898989802E9, abc2@test, www.abc2.com, puliya No...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.PeopleAndOrganisationsTest" hash-for-method="addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)">addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.PeopleAndOrganisationsTest" hash-for-method="addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)">addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.AddTaskPageTest" hash-for-method="submitAddTask(rama, 24-Oct-2019, 6.0, 10.0, Email)">submitAddTask(rama, 24-Oct-2019, 6.0, 10.0, Email)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.AddTaskPageTest" hash-for-method="submitAddTask(rahul, 23-Dec-2019, 11.0, 5.0, Call)">submitAddTask(rahul, 23-Dec-2019, 11.0, 5.0, Call)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.AddTaskPageTest" hash-for-method="submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)">submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.PeopleAndOrganisationsTest" hash-for-method="validateAddPerson">validateAddPerson</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.HomePageTest" hash-for-method="validateAddText">validateAddText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.HomePageTest" hash-for-method="validateCalendarAndTasks">validateCalendarAndTasks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.HomePageTest" hash-for-method="validateCases">validateCases</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.HomePageTest" hash-for-method="validatePeopleAndOrganisations">validatePeopleAndOrganisations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.HomePageTest" hash-for-method="validateSalesPipeline">validateSalesPipeline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.crm.qa.testcasespack.HomePageTest" hash-for-method="validatedashBoardButton">validatedashBoardButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcasespack.PeopleAndOrganisationsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewPersonTest(kaka, singh, budaau, purani madai, khalihar, 9.898989804E9, abc4@test, www.abc4.com, puliya No 423)">
+                  </a> <!-- addNewPersonTest(kaka, singh, budaau, purani madai, khalihar, 9.898989804E9, abc4@test, www.abc4.com, puliya No 423) -->
+                  <span class="method-name">addNewPersonTest</span>
+                  <span class="parameters">(kaka, singh, budaau, purani madai, khalihar, 9.898989804E9, abc4@test, www.abc4.com, puliya No 423)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewPersonTest(mukesh, malhotra, carpenter, aara machin, karigar, 9.898989802E9, abc2@test, www.abc2.com, puliya No...)">
+                  </a> <!-- addNewPersonTest(mukesh, malhotra, carpenter, aara machin, karigar, 9.898989802E9, abc2@test, www.abc2.com, puliya No...) -->
+                  <span class="method-name">addNewPersonTest</span>
+                  <span class="parameters">(mukesh, malhotra, carpenter, aara machin, karigar, 9.898989802E9, abc2@test, www.abc2.com, puliya No 421)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)">
+                  </a> <!-- addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422) -->
+                  <span class="method-name">addNewPersonTest</span>
+                  <span class="parameters">(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)">
+                  </a> <!-- addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420) -->
+                  <span class="method-name">addNewPersonTest</span>
+                  <span class="parameters">(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddPerson">
+                  </a> <!-- validateAddPerson -->
+                  <span class="method-name">validateAddPerson</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcasespack.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddText">
+                  </a> <!-- validateAddText -->
+                  <span class="method-name">validateAddText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCalendarAndTasks">
+                  </a> <!-- validateCalendarAndTasks -->
+                  <span class="method-name">validateCalendarAndTasks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCases">
+                  </a> <!-- validateCases -->
+                  <span class="method-name">validateCases</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePeopleAndOrganisations">
+                  </a> <!-- validatePeopleAndOrganisations -->
+                  <span class="method-name">validatePeopleAndOrganisations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSalesPipeline">
+                  </a> <!-- validateSalesPipeline -->
+                  <span class="method-name">validateSalesPipeline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatedashBoardButton">
+                  </a> <!-- validatedashBoardButton -->
+                  <span class="method-name">validatedashBoardButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcasespack.AddTaskPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitAddTask(rama, 24-Oct-2019, 6.0, 10.0, Email)">
+                  </a> <!-- submitAddTask(rama, 24-Oct-2019, 6.0, 10.0, Email) -->
+                  <span class="method-name">submitAddTask</span>
+                  <span class="parameters">(rama, 24-Oct-2019, 6.0, 10.0, Email)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitAddTask(rahul, 23-Dec-2019, 11.0, 5.0, Call)">
+                  </a> <!-- submitAddTask(rahul, 23-Dec-2019, 11.0, 5.0, Call) -->
+                  <span class="method-name">submitAddTask</span>
+                  <span class="parameters">(rahul, 23-Dec-2019, 11.0, 5.0, Call)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)">
+                  </a> <!-- submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone) -->
+                  <span class="method-name">submitAddTask</span>
+                  <span class="parameters">(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kullu\Desktop\cmdrepo-master\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.crm.qa.testcasespack.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcasespack.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcasespack.AddTaskPageTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcasespack.PeopleAndOrganisationsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addNewPersonTest')
+data.setCell(0, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
+data.setCell(0, 3, 33666);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addNewPersonTest')
+data.setCell(1, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
+data.setCell(1, 3, 23244);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addNewPersonTest')
+data.setCell(2, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
+data.setCell(2, 3, 15999);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addNewPersonTest')
+data.setCell(3, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
+data.setCell(3, 3, 15912);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'submitAddTask')
+data.setCell(4, 2, 'com.crm.qa.testcasespack.AddTaskPageTest')
+data.setCell(4, 3, 11122);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'submitAddTask')
+data.setCell(5, 2, 'com.crm.qa.testcasespack.AddTaskPageTest')
+data.setCell(5, 3, 11016);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'submitAddTask')
+data.setCell(6, 2, 'com.crm.qa.testcasespack.AddTaskPageTest')
+data.setCell(6, 3, 9655);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateAddPerson')
+data.setCell(7, 2, 'com.crm.qa.testcasespack.PeopleAndOrganisationsTest')
+data.setCell(7, 3, 4496);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateCalendarAndTasks')
+data.setCell(8, 2, 'com.crm.qa.testcasespack.HomePageTest')
+data.setCell(8, 3, 3010);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateCases')
+data.setCell(9, 2, 'com.crm.qa.testcasespack.HomePageTest')
+data.setCell(9, 3, 2648);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateSalesPipeline')
+data.setCell(10, 2, 'com.crm.qa.testcasespack.HomePageTest')
+data.setCell(10, 3, 2599);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validatePeopleAndOrganisations')
+data.setCell(11, 2, 'com.crm.qa.testcasespack.HomePageTest')
+data.setCell(11, 3, 2551);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateAddText')
+data.setCell(12, 2, 'com.crm.qa.testcasespack.HomePageTest')
+data.setCell(12, 3, 749);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validatedashBoardButton')
+data.setCell(13, 2, 'com.crm.qa.testcasespack.HomePageTest')
+data.setCell(13, 3, 438);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcasespack.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddText</span>
+                <span class="method-start">44260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">45011 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCalendarAndTasks</span>
+                <span class="method-start">60148 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">63159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">64500 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCases</span>
+                <span class="method-start">78764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">82985 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePeopleAndOrganisations</span>
+                <span class="method-start">94793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97345 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">98901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSalesPipeline</span>
+                <span class="method-start">112202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">114802 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">116513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatedashBoardButton</span>
+                <span class="method-start">131184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">131622 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcasespack.AddTaskPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">136087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitAddTask(rahul, 23-Dec-2019, 11.0, 5.0, Call)</span>
+                <span class="method-start">148598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">159614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">160552 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitAddTask(rama, 24-Oct-2019, 6.0, 10.0, Email)</span>
+                <span class="method-start">173439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">183099 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">184935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitAddTask(hanu, 18-Nov-2019, 18.0, 15.0, Milestone)</span>
+                <span class="method-start">197613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">208735 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcasespack.PeopleAndOrganisationsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">210149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewPersonTest(ramesh, yadav, master, school, guruji, 9.898989801E9, abc1@test, www.abc1.com, puliya No 420)</span>
+                <span class="method-start">226450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">249696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">251580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewPersonTest(mukesh, malhotra, carpenter, aara machin, karigar, 9.898989802E9, abc2@test, www.abc2.com, puliya No...)</span>
+                <span class="method-start">269502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">303168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">305361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewPersonTest(piku, nautanki, madari, circus, jadugar, 9.898989803E9, abc3@test, www.abc3.com, puliya No 422)</span>
+                <span class="method-start">318059 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">334061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">334891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addNewPersonTest(kaka, singh, budaau, purani madai, khalihar, 9.898989804E9, abc4@test, www.abc4.com, puliya No 423)</span>
+                <span class="method-start">345991 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">361903 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">362975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddPerson</span>
+                <span class="method-start">373963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">378459 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
