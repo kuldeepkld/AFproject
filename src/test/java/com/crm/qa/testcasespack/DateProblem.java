@@ -1,6 +1,7 @@
 package com.crm.qa.testcasespack;
 
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -8,7 +9,8 @@ import org.testng.annotations.Test;
 
 public class DateProblem {
 	
-	@Test
+	
+	@Test(enabled=false)
 	public void date1() {
 		String pattern = "MM-dd-yyyy";
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
@@ -16,8 +18,25 @@ public class DateProblem {
 		System.out.println(date);
 
 	}
-	
 	@Test
+	public void newpro() {
+		String date1= "05-06-1999";
+		Date date2 = null;
+		SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yyyy");
+		try {
+			date2 = sdf.parse(date1);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 String formatedDate = sdf.format(date2);
+		SimpleDateFormat formatter = new SimpleDateFormat("dd-MMM-YYYY");  
+	   String nfd= formatter.format(date2);
+		System.out.println(formatedDate);
+		System.out.println(nfd);
+	}
+	
+	@Test(enabled=false)
 	public void date2() {
 		
 		// Make a new Date object. It will be initialized to the current time.

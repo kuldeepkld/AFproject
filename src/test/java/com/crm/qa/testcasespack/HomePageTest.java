@@ -14,7 +14,7 @@ import com.crm.qa.pagespack.HomePage;
 import com.crm.qa.pagespack.LoginPage;
 
 
-@Listeners(com.crm.qa.utilpack.TestCommonUtiles.class)
+@Listeners({com.crm.qa.utilpack.TestCommonUtiles.class, com.crm.qa.utilpack.ExtentReporterNG.class })
 public class HomePageTest extends BaseClass {
 	public LoginPage lp;
 	public HomePage hp;

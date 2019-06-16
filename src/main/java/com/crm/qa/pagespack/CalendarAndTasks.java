@@ -11,7 +11,7 @@ import com.crm.qa.utilpack.DatePattern;
 
 public class CalendarAndTasks extends BaseClass{
 	
-	@FindBy(xpath="//span[@class='calendar-header-list-tab-icon']")
+	@FindBy(xpath="//a[@href='/tasks']")
 	public WebElement taskButton;
 	
 	public void clickTaskButton() {

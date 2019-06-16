@@ -50,7 +50,7 @@ public class TestCommonUtiles extends BaseClass implements ITestListener{
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	 Sheet	sheet = book.getSheet(sheetName);
+		sheet = book.getSheet(sheetName);
 		Object[][] data = new Object[sheet.getLastRowNum()][sheet.getRow(0).getLastCellNum()];
 		// System.out.println(sheet.getLastRowNum() + "--------" +
 		// sheet.getRow(0).getLastCellNum());
@@ -121,6 +121,16 @@ public class TestCommonUtiles extends BaseClass implements ITestListener{
 			return anotherFormatedDate;  
 			
 		}
+		public static void findTableElementAndClickOnCheckBox(List<WebElement> list , String Category, List<WebElement> list1) {
+			
+			for(int i=0; i<=list.size()-1; i++)
+			{
+				if (list.get(i).getText().equals(Category))
+				{list1.get(i).click();
+				break;
+				}
+					
+			}}
 		// select element from webelements list method
 		public static void selectListElement(List<WebElement> list , String Category) {
 			
@@ -194,6 +204,11 @@ public class TestCommonUtiles extends BaseClass implements ITestListener{
 		public static void selectValueFromDropDown(String value, WebElement wb) {
 			Select sl1= new Select(wb);
 			sl1.selectByVisibleText(value);
+		}
+		
+		public static String convertPhoneNumber(String phoneNumber) {
+			String phone=phoneNumber.substring(1);
+			return phone;
 		}
 		
 }

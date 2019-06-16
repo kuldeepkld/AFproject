@@ -1,11 +1,15 @@
 package com.crm.qa.pagespack;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.FindBys;
 
 import com.crm.qa.basepack.BaseClass;
+import com.crm.qa.utilpack.TestCommonUtiles;
 
 public class PeopleAndOrganisations extends BaseClass{
 	
@@ -26,7 +30,7 @@ public class PeopleAndOrganisations extends BaseClass{
 	@FindBy (xpath="//select[@name='party:j_id107:j_id115']")
 	public WebElement titleDropDown;
 	
-	@FindBy(xpath="//span[@class='input ']")
+	@FindBy(xpath="//input[@id='party:fnDecorate:fn']")
 	public WebElement firstNameTextBox;
 	
 	@FindBy(xpath="//input[@id='party:lnDecorate:ln']")
@@ -71,12 +75,13 @@ public class PeopleAndOrganisations extends BaseClass{
 	@FindBy(xpath="//input[@id='party:save']")
 	public WebElement saveBtn;
 	
-	public void addNewPerson(String firstName, String lastName, String jobTitle, String organisation, 
-			String tags, String phoneNumber, String email, String website, String address ) throws Throwable {
+	public void addNewPerson(String title, String firstName, String lastName, String jobTitle, String organisation, 
+			String tags,String phoneNumber, String email, String website, String address ) throws Throwable {
 		
-
+		TestCommonUtiles.selectValueFromDropDown(title, titleDropDown);
+		firstNameTextBox.click();
+		firstNameTextBox.sendKeys(firstName);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		
 		firstNameTextBox.click();
 		js.executeScript("document.getElementById('party:fnDecorate:fn').value='"+firstName+"';");
 		lastNameTextBox.click();
@@ -88,7 +93,7 @@ public class PeopleAndOrganisations extends BaseClass{
 		tagsTextBox.click();
 		js.executeScript("document.getElementById('party:tagsDecorate:tagComboBox').value='"+tags+"';");
 		phoneNumberTextBox.click();
-		js.executeScript("document.getElementById('party:j_id324:0:phnDecorate:number').value='"+phoneNumber+"';");
+		js.executeScript("document.getElementById('party:j_id324:0:phnDecorate:number').value='"+TestCommonUtiles.convertPhoneNumber(phoneNumber)+"';");
 		emailAdressTextBox.click();
 		js.executeScript("document.getElementById('party:j_id341:0:emlDecorate:nmbr').value='"+email+"';");
 		websitesTextBox.click();
@@ -96,10 +101,9 @@ public class PeopleAndOrganisations extends BaseClass{
 		addAdresslink.click();
 		addAdress.click();
 		js.executeScript("document.getElementById('party:j_id388:0:strDecorate:str').value='"+address+"';");
-		Thread.sleep(4000);
 		saveBtn.click();
+		Thread.sleep(2000);
 		
-//		firstNameTextBox.sendKeys(firstName);
 //		lastNameTextBox.sendKeys(lastName);
 //		jobTitleTextBox.sendKeys(jobTitle);
 //		organisationTextBox.sendKeys(organisation);
@@ -109,6 +113,41 @@ public class PeopleAndOrganisations extends BaseClass{
 //		websitesTextBox.sendKeys(website);
 //		addAdress.sendKeys(address);
 		
+	}
+	
+	@FindBys( {
+		   @FindBy(xpath= "//table[@class='simple-table list-results-table with-hover-effect']/tbody/tr[*]/td[3]")
+	})
+	public List<WebElement> peopleList;
+	
+	@FindBys( {
+		   @FindBy(xpath= "//table[@class='simple-table list-results-table with-hover-effect']/tbody/tr[*]/td[1]")
+	})
+	public List<WebElement> peopleListCheckBox;
+	
+	@FindBy(xpath="//span[@class='btn-tertiary btn-small list-actions-delete tooltipper simple-tooltipper ember-view']")
+	public WebElement deleteContactbtn;
+	@FindBy(xpath="//input [@class='form-input-checkbox bulk-delete-modal-checkbox']")
+	public WebElement understandBtn;
+	@FindBy(xpath="//button[contains(.,'Delete')]")
+	public WebElement deleteBtn;
+//	@FindBy(xpath="//div[@class='menu-select-selected-option ember-view multi-button-secondary']")
+//	public WebElement editbtn;
+//	@FindBy(xpath="//button[contains(.,'Delete')]")
+//	WebElement deletemenu;
+//	@FindBy(xpath="//button[contains(.,'Delete')]")
+	WebElement deletbtn;
+	
+	
+	
+	public PeopleAndOrganisations deletePersion(String firstName, String lastName) {
+		
+		String name= firstName+" "+lastName;
+		TestCommonUtiles.findTableElementAndClickOnCheckBox(peopleList, name,peopleListCheckBox );
+		deleteContactbtn.click();
+		understandBtn.click();
+		deleteBtn.click();
+		return new PeopleAndOrganisations();
 	}
 
 }

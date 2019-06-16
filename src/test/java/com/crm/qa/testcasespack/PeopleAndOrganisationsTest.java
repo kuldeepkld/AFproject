@@ -16,17 +16,12 @@ import com.crm.qa.pagespack.LoginPage;
 import com.crm.qa.pagespack.PeopleAndOrganisations;
 import com.crm.qa.utilpack.TestCommonUtiles;
 
-
-
-
-@Listeners(com.crm.qa.utilpack.TestCommonUtiles.class)
+@Listeners({com.crm.qa.utilpack.TestCommonUtiles.class, com.crm.qa.utilpack.ExtentReporterNG.class })
 public class PeopleAndOrganisationsTest extends BaseClass {
 	
 	public LoginPage lp;
 	public HomePage hp;
 	public PeopleAndOrganisations pao;
-	
-	
 
 	@BeforeMethod
 	public void setUp() throws Throwable {
@@ -39,26 +34,34 @@ public class PeopleAndOrganisationsTest extends BaseClass {
 	}
 
 	
-	@Test
+	@Test(priority= 0)
 	public void validateAddPerson() {
 		pao.clickAddPerson();
 		String tit=pao.title();
 		String title= tit.trim();
 		Assert.assertEquals(title,"New Person");
 	}
-	
-	@Test(dataProvider="getAddPersonDetail")
-	public void addNewPersonTest(String firstName, String lastName, String jobTitle, String organisation,String tags, String phoneNumber, String email, String website, String address) throws Throwable {
+	//this test adds persons
+	@Test(dataProvider="getAddPersonDetail",priority=1)
+	public void addNewPersonTest(String title, String firstName, String lastName, String jobTitle, String organisation,String tags, String phoneNumber, String email, String website, String address) throws Throwable {
 		pao.clickAddPerson();
 		Thread.sleep(1000);
-		pao.addNewPerson(firstName, lastName, jobTitle, organisation,tags, phoneNumber, email, website, address);
+		pao.addNewPerson(title, firstName, lastName, jobTitle, organisation,tags, phoneNumber, email, website, address);
 		
 	}
+	
+	//this test delete persons
+	@Test(dataProvider="getAddPersonDetail", priority=2)
+	public void deletePersonTest(String title, String firstName, String lastName, String jobTitle, String organisation,String tags, String phoneNumber, String email, String website, String address) {
+		pao.deletePersion(firstName, lastName );
+	}
+	
 	@DataProvider
 	public Object[][] getAddPersonDetail(){
 		Object data[][] = TestCommonUtiles.getTestData("Sheet2");
 		return data;	
 	}
+	
 	
 	@AfterMethod
 	public void tearDown(){

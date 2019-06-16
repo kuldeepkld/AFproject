@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.crm.qa.testcasespack.LoginPageTest"/>
+      <class name="com.crm.qa.testcasespack.HomePageTest"/>
+      <class name="com.crm.qa.testcasespack.AddTaskPageTest"/>
+      <class name="com.crm.qa.testcasespack.PeopleAndOrganisationsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcasespack.AddTaskPageTest">
+        <methods>
+          <include name="submitAddTask"/>
+          <include name="setUp"/>
+          <include name="validateAddTaskDescription"/>
+          <include name="tearDown"/>
+          <include name="deleteTask" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcasespack.AddTaskPageTest -->
+      <class name="com.crm.qa.testcasespack.PeopleAndOrganisationsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcasespack.PeopleAndOrganisationsTest -->
+      <class name="com.crm.qa.testcasespack.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcasespack.HomePageTest -->
+      <class name="com.crm.qa.testcasespack.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcasespack.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

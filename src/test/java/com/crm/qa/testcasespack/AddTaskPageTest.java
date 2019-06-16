@@ -15,8 +15,9 @@ import com.crm.qa.pagespack.HomePage;
 import com.crm.qa.pagespack.LoginPage;
 import com.crm.qa.utilpack.TestCommonUtiles;
 
+//com.crm.qa.utilpack.ExtentReporterNG.class
+@Listeners({com.crm.qa.utilpack.TestCommonUtiles.class, com.crm.qa.utilpack.ExtentReporterNG.class })
 
-@Listeners(com.crm.qa.utilpack.TestCommonUtiles.class)
 public class AddTaskPageTest extends  BaseClass{
 	
 	public LoginPage lp;
